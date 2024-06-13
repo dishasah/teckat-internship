@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
+  
   const [data, setData] = useState<number> (89);
   const [numberData, setNumberData] = useState<number>(89);
   
@@ -31,6 +32,7 @@ function App() {
     setNumberData ( numberData - 1);
   };
     return (
+
     <>
       <button title = "title" onClick  = { addData} className={'number ${data}'}>
         add Data
