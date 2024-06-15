@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { IStudent } from '../interface/student';
 
-const createStudent : React.FC  = ():any => {
+const CreateStudent : React.FC  = ():any => {
     const{
         register ,
         handleSubmit,
@@ -79,4 +79,4 @@ const createStudent : React.FC  = ():any => {
 
 
 
-export default createStudent;
+export default CreateStudent;
