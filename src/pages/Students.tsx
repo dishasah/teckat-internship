@@ -20,33 +20,51 @@ console.log("student data",allStudents);
   <button title="Create Student" className="create_button">
     <Link to="/student/create-student">Create Student</Link>
   </button>
-  <table>
+  <table id="registrationTable">
         <thead>
-          <tr>
-            <td>SN.</td>
-            <td>Name</td>
-            <td>Age</td>
-            <td>Phone Number</td>
-            <td>Email ID</td>
-          </tr>
+            <tr>
+                <th>SL.NO.</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Phone Number</th>
+                <th>Email ID</th>
+            </tr>
         </thead>
         <tbody>
-          {allStudents?.map((item, index) => {
-            return (
-              <tr key={index}>
-                <td>{index + 1}</td>
-                <td>{item.name}</td>
-                <td>{item.age}</td>
-                <td>{item.phone}</td>
-                <td>{item.email}</td>
-              </tr>
-            );
-          })}
+            <tr className="row-1">
+                <td>1</td>
+                <td>DISHA SAH</td>
+                <td>20</td>
+                <td>9341727209</td>
+                <td>dishasah6@gmail.com</td>
+            </tr>
+            <tr className="row-2">
+                <td>2</td>
+                <td>KHUSHI SINGH</td>
+                <td>20</td>
+                <td>8956784351</td>
+                <td>khushisingh6@gmail.com</td>
+            </tr>
+            <tr className="row-3">
+                <td>3</td>
+                <td>NIRBHAY SINGH</td>
+                <td>20</td>
+                <td>9876754322</td>
+                <td>sahilsingh6@gmail.com</td>
+            </tr>
+            <tr className="row-4">
+                <td>4</td>
+                <td>SWEETY KUMARI</td>
+                <td>20</td>
+                <td>9876754893</td>
+                <td>sweetykumari6@gmail.com</td>
+            </tr>
+
         </tbody>
-      </table>
+    </table>
   <br />
   <hr />
-     
+
   </>
   );
 };

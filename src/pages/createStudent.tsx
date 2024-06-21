@@ -28,12 +28,12 @@ const CreateStudent: React.FC = () => {
   return (
     <>
       <div className="create_student_section">
-        Lorem, ipsum.
+       <p> ENTER YOUR DETAILS HERE !! </p>
         <form onSubmit={handleSubmit(createNewStudent)}>
           <div>
             <label htmlFor="name"></label>
             <input
-              title="name"
+              title="Name"
               type="text"
               id="name"
               {...register("name", {
@@ -45,7 +45,7 @@ const CreateStudent: React.FC = () => {
           <div>
             <label htmlFor="age"></label>
             <input
-              title="age"
+              title="Age"
               type="number"
               id="age"
               {...register("age", {
@@ -56,7 +56,7 @@ const CreateStudent: React.FC = () => {
             <div className="error_message">{errors.age?.message}</div>
           </div>
           <div>
-            <label htmlFor="phone"></label>
+            <label htmlFor="Phone"></label>
             <input
               title="phone"
               type="number"

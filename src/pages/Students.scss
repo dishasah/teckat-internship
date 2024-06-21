@@ -1,14 +1,49 @@
 .create_button{
     background-color: green !important;
+    color: black;
+    text-align: center;
 }
 table {
     margin-top: 200px;
-    thead {
-        tr{
-            td{
-                color: blue;
-                
-            }
-        }
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 20px;
     }
-}
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+    
+    th, td {
+        padding: 12px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+    
+    th {
+        background-color: #4CAF50;
+        color: black;
+    }
+    
+    .row-1 {
+        background-color: black;
+    }
+    
+    .row-2 {
+        background-color: black;
+    }
+    
+    .row-3 {
+        background-color: black;
+    }
+    .row-4 {
+        background-color: black;
+    }
+    .td {
+        text-decoration-color: aqua;
+        font: 200;
+        text-decoration-color: #4CAF50;
+    }
