@@ -1,7 +1,5 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-
-
 import {
     CreateStudent ,
     HomePage,
@@ -17,12 +15,6 @@ import {
 
 }from "./pages";
 import Test1 from "./pages/Test1";
-
-
-
-
- 
-
 const AppRoute : React.FC  = () => {
   return (
 
